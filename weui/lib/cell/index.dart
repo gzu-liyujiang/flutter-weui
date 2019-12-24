@@ -41,7 +41,7 @@ class WeCells extends StatelessWidget {
 
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white
+        color: WeUi.getTheme(context).defaultBackgroundColor.withAlpha(50),
       ),
       child: _WeCellsScope(
         weCells: this,
