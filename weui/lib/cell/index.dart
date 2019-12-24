@@ -25,7 +25,7 @@ class WeCells extends StatelessWidget {
       if (item != children[0]) {
         newChildren.add(
           Padding(
-            padding: EdgeInsets.only(left: spacing),
+            padding: EdgeInsets.only(left: spacing, right: spacing),
             child: _border
           )
         );
